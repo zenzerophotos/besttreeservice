@@ -13,5 +13,10 @@
     "removal"
   ],
   "author": "ZenZero (shidogrey@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {}
 }

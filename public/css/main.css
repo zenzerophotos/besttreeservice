@@ -8,9 +8,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e00b', end
   margin: 0px;
 }
 
-body{
+.top{
   margin: 0px;
+  background-image: url("/images/swaneeRiver.jpg");
+  /*background-color: black;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  max-height: 600px;
+  height: 500px;
+  overflow: auto;
+}
 
+body{
+  margin:0px;
 }
 
  a{
@@ -50,31 +64,34 @@ h2{
   margin-right: 5%;
   margin-top: 2%;
   padding-bottom: 20px;
+  max-height: 600px;
+  max-width:600px;
 }
 
-.block{
+
+p{
   height: 100px;
   float: left;
   width:35%;
   background-color: green;
-  margin-top: -250px;
+  /*margin-top: -250px;*/
   border-radius: 0px 15px 15px 0px;
   overflow: hidden;
   text-align: center;
-}
-
-p{
   font-size: 30pt;
-  margin-top: 0px;
+  margin-top: 55px;
   border-top: 0px;
-  margin-left: 2%;
+  margin-left:
+  padding-left:0% ;
   overflow: hidden;
   text-align: center;
   font: sans-serif;
 }
 
 .second{
-
+background-color: green;
+max-height: 500px;
+height: 500px;
 }
 .treetop{
   width:100%;

@@ -49,22 +49,35 @@ h2{
   float: right;
   margin-right: 5%;
   margin-top: 2%;
-
-}
-
-.top{
-
-  background-color: white;
-  height: 800px;
+  padding-bottom: 20px;
 }
 
 .block{
   height: 100px;
   float: left;
-  width:30%;
+  width:35%;
   background-color: green;
-  /*margin-top: -300px;*/
+  margin-top: -250px;
+  border-radius: 0px 15px 15px 0px;
+  overflow: hidden;
+  text-align: center;
 }
-.inline{
-  display: inline-block;
+
+p{
+  font-size: 30pt;
+  margin-top: 0px;
+  border-top: 0px;
+  margin-left: 2%;
+  overflow: hidden;
+  text-align: center;
+  font: sans-serif;
+}
+
+.second{
+
+}
+.treetop{
+  width:100%;
+  height: auto;
+  overflow: hidden;
 }

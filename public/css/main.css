@@ -44,9 +44,27 @@ h2{
 }
 
 .logo{
-  width: auto;
-  height: 700px;
+  width: 70%;
+  height: auto;
   float: right;
   margin-right: 5%;
   margin-top: 2%;
+
+}
+
+.top{
+
+  background-color: white;
+  height: 800px;
+}
+
+.block{
+  height: 100px;
+  float: left;
+  width:30%;
+  background-color: green;
+  /*margin-top: -300px;*/
+}
+.inline{
+  display: inline-block;
 }

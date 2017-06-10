@@ -6,11 +6,13 @@ background: linear-gradient(to bottom, #00e00b 0%,#006653 100%); /* W3C, IE10+, 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e00b', endColorstr='#006653',GradientType=0 ); /* IE6-9 */
   height: 50px;
   margin: 0px;
+ position: fixed;
+ width: 100%;
 }
 
 .top{
   margin: 0px;
-  background-image: url("/images/swaneeRiver.jpg");
+  /*background-image: url("/images/swaneeRiver.jpg");*/
   /*background-color: black;*/
   background-repeat: no-repeat;
   background-position: center;
@@ -25,6 +27,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e00b', end
 
 body{
   margin:0px;
+  background-image: url("/images/tempback.jpg");
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #16a9df;
+  margin-top: 50px;
 }
 
  a{
@@ -58,14 +68,17 @@ h2{
 }
 
 .logo{
-  width: 70%;
+  width: 50%;
   height: auto;
   float: right;
   margin-right: 5%;
-  margin-top: 2%;
+  margin-top: 6%;
   padding-bottom: 20px;
   max-height: 600px;
   max-width:600px;
+
+
+
 }
 
 
